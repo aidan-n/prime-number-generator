@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
     }
 
     //test primality of each inputted number
-    i = 1;
-    while (i < argc)
+    i = 0;
+    while (i < argc-1)
     {
         printf("%-5d: ", user_input[i]);//format 5 places before ':'
 
