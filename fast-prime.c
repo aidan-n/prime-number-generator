@@ -160,7 +160,7 @@ int check_file(maybe_prime)
     return 1;
 }
 
-int new_file(void)
+void new_file(void)
 {
     //creates a new file "primes.log", with "2" and "3" in it.
     FILE *primes;
