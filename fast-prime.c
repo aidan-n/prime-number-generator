@@ -22,7 +22,8 @@ int main(int argc, char *argv[])
     i = 0;
     while (i < argc-1)
     {
-        user_input[i] = atoi(argv[++i]);
+        user_input[i] = atoi(argv[i+1]);
+        i++;
     }
 
     //test primality of each inputted number
